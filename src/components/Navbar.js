@@ -1,7 +1,7 @@
 import Logo from '../assets/img/header/Logo.svg';
 import profileArrow from '../assets/img/header/Seta-opções.svg';
 import userIcon from '../assets/img/header/Ícone-usuário.svg';
-
+import './style/Navbar.css';
 
 function Navbar() {
   return (
@@ -17,8 +17,8 @@ function Navbar() {
 
       <div className="profile">
         <div className="dropdown">
-          <button onClick={"myFunction"} className="dropbtn">
-            <img src={profileArrow} alt="" />
+          <button className="dropbtn">
+            <img src={profileArrow} alt="profileArrow" />
           </button>
           <div id="myDropdown" className="dropdown-content">
             <a href="#">Link 1</a>
